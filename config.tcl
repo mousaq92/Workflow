@@ -4,7 +4,7 @@ set ::env(DESIGN_NAME) "spm"
 
 set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/*.v]
 
-set ::env(CLOCK_PERIOD) "10.000"
+set ::env(CLOCK_PERIOD) "8.000"
 set ::env(CLOCK_PORT) "clk"
 
 set ::env(FP_PDN_AUTO_ADJUST) 0
