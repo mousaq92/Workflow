@@ -13,7 +13,6 @@ jobs:
         uses: The-OpenROAD-Project/actions/openlane_run@main
         with:
           update_tag: true
-          ol_tag: ol_tag_file
 
   ol_stable:
     runs-on: ubuntu-latest
