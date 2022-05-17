@@ -13,7 +13,6 @@ jobs:
         uses: The-OpenROAD-Project/actions/openlane_run@main
         with:
           update_tag: true
-          default: 2022.05.05_02.01.30
 
   ol_stable:
     runs-on: ubuntu-latest
